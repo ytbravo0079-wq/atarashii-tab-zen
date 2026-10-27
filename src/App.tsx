@@ -103,7 +103,7 @@ function App() {
   const data =
     loaded !== LoadState.FETCH_NEW
       ? history.length
-        ? history[i] || history[history.length - 1]
+        ? history[history.length - 1]
         : null
       : undefined
 

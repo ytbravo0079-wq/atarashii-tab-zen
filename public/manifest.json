@@ -1,6 +1,12 @@
 {
   "name": "Atarashii (New) Tab Page",
+  "version": "0.1.10",
   "manifest_version": 3,
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "atarashii-tab@custom-fix"
+    }
+  },
   "chrome_url_overrides": {
     "newtab": "index.html"
   },
@@ -10,7 +16,7 @@
     "128": "icons/icon-128.png"
   },
   "host_permissions": [
-    "https://www.reddit.com/r/Animewallpaper/search.json*",
-    "https://i.redd.it/"
+    "https://*.reddit.com/*",
+    "https://*.redd.it/*"
   ]
 }
